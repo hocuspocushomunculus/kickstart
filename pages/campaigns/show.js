@@ -67,7 +67,7 @@ const CampaignShow = (props) => {
 
                 <Grid.Row>
                     <Grid.Column>
-                        <Link route={`/campaigns/${props.address}/requests`}>
+                        <Link route={`#/campaigns/${props.address}/requests`}>
                             <a>
                                 <Button primary>View Requests</Button>
                             </a>

@@ -29,7 +29,7 @@ const RequestNew = (props) => {
                 recipient)
                 .send({from: accounts[0] });
 
-            Router.pushRoute(`/campaign/${props.address}/requests`)
+            Router.pushRoute(`#/campaign/${props.address}/requests`)
         } catch (err) {
             setErrorMessage(err.message);
         }
@@ -44,7 +44,7 @@ const RequestNew = (props) => {
 
     return (
         <Layout>
-            <Link route={`/campaigns/${props.address}/requests`}>
+            <Link route={`#/campaigns/${props.address}/requests`}>
                 <a>Back</a>
             </Link>
             <h3>Create a Request</h3>

@@ -23,7 +23,7 @@ const RequestIndex = (props) => {
     return (
         <Layout>
             <h3>Requests</h3>
-            <Link route={`/campaigns/${props.address}/requests/new`}>
+            <Link route={`#/campaigns/${props.address}/requests/new`}>
                 <a>
                     <Button primary floated="right" style={{ marginBottom: 10 }}>Add Request</Button>
                 </a>
